@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #eae0d5;
+    font-family:'Times New Roman, Helvetica, sans-serif' ;
+    padding: 80px;
+    margin: 60px;
+}
+
+.Resume-Container{
+    background-color: #723d46;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.Profile{
+    text-align: center;
+}
+
+#name{
+    padding: 4px;
+    color:#450920;
+    font-size: 60px;
+}
+
+#Image{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-width: 8px;
+    border-color: #472d30;
+    border-style: solid;
+}
+
+section{
+    margin: 30px;
+}
+
+h2{
+    margin: 15px;
+    color:#450920;
+    font-size: 30px;
+}
+
+h3{
+    color: #450920;
+    font-size: 25px;
+}
+
+strong{
+    font-size: 20px;
+}
+
+p, li{
+    font-size: 20px;
+}
+
+
+.Resume-Components{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.Experience{
+    margin-bottom: 13px;
+}
+
+
+.line {
+    border-bottom: 3px solid #450920; 
+    width: 100%;
+    margin: 20px 0; 
+}
+
+
+button{
+    display: block;
+    height: 30px;
+    width: 125px;
+    background-color: #9b525e;
+    border-radius: 25px;
+    font-weight: bolder;
+    color: #350115;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 1px 1px 1px 1.5px rgb(72, 16, 16);
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+    body {
+        padding: 20px;
+        margin: 15px;
+    }
+
+    .Resume-Container {
+        padding: 10px;
+    }
+
+    #name {
+        font-size: 40px;
+    }
+
+    #headline{
+        font-size: 17px;
+    }
+
+    #Image {
+        height: 150px;
+        width: 150px;
+        border-width: 6px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    strong {
+        font-size: 17px;
+    }
+
+    p, li {
+        font-size: 17px;
+        letter-spacing: 0.25px;
+    }
+
+    button {
+        height: 25px;
+        width: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 451px) and (max-width: 600px) {
+    body {
+        padding: 25px;
+        margin: 20px;
+    }
+
+    .Resume-Container {
+        padding: 15px;
+    }
+
+    #name {
+        font-size: 60px;
+    }
+
+    #headline{
+        font-size: 19px;
+    }
+
+    #Image {
+        height: 180px;
+        width: 180px;
+        border-width: 7px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    strong {
+        font-size: 22px;
+    }
+
+    p, li {
+        font-size: 22px;
+        letter-spacing: 0.5px;
+    }
+
+    button {
+        height: 28px;
+        width: 110px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    body {
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .Resume-Container {
+        padding: 15px;
+    }
+
+    #name {
+        font-size: 70px;
+    }
+
+    #Image {
+        height: 190px;
+        width: 190px;
+        border-width: 8px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    strong {
+        font-size: 25px;
+    }
+
+    p, li {
+        font-size: 25px;
+        letter-spacing: 0.75px;
+
+    }
+
+    button {
+        height: 28px;
+        width: 115px;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 1980px) {
+    body {
+        padding: 35px;
+        margin: 25px;
+    }
+
+    .Resume-Container {
+        padding: 20px;
+    }
+
+    #name {
+        font-size: 80px;
+    }
+
+    #headline{
+        font-size: 25px;
+    }
+
+    #Image {
+        height: 150px;
+        width: 150px;
+        border-width: 6px;
+    }
+
+    h2 {
+        font-size: 37px;
+    }
+
+    h3 {
+        font-size: 32px;
+    }
+
+    strong {
+        font-size: 27px;
+    }
+
+    p, li {
+        font-size: 27px;
+        letter-spacing: 0.95px;
+    }
+
+    button {
+        height: 25px;
+        width: 100px;
+    }
+}
+
+
+
+
